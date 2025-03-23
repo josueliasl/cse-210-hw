@@ -1,5 +1,7 @@
 using System;
-
+//My exceeding requirements is having a menu with 2 scriptural 
+//options and according to the user's choice they will be helped
+// with that specific scripture.
 class Program
 {
     static void Main(string[] args)
