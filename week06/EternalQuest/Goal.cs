@@ -1,8 +1,17 @@
 // Goal.cs
 using System;
+//My .txt file. The file that is supposed to be created with option 4 is stored in the 
+//C:\Users\josue\OneDrive\Documents\cse-210-hw\week06\EternalQuest\bin\Debug\net8.0\goals.txt
+//I tried to take a screenshot but I am not allowed, the program is functional
+
+//Creativity: 
+// Extra Feature: When saving and loading, the program preserves the user's current score
+// and the internal progress of all goal types (like checklist completion).
+// This ensures data persistence across sessions, which exceeds the basic requirements.
 
 public abstract class Goal
 {
+    
     protected string _name;
     protected string _description;
     protected int _points;
